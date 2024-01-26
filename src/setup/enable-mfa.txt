@@ -1,0 +1,11 @@
+Enable Multi-Factor Authentication (MFA)
+
+1. Navigate to the Azure Portal, go to "Azure Active Directory," then "Users."
+2. On the top nav bar, click on "Per User MFA."
+3. Select a user whom you have to grant MFA.
+4. MFA will be enabled.
+5. Login using the user-id which had enabled MFA.
+6. Download Microsoft Authenticator App on the mobile and scan the QR-Code displayed on the Screen.
+7. Once the account is linked with the mobile app, a number will be prompted on the screen.
+8. Enter the number on the mobile device to login.
+9. Apply the same to all Users.

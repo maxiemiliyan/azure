@@ -1,0 +1,18 @@
+Setup Instructions - Create Users and Assign Roles using Azure portal.
+
+
+User1 - Contributor Role
+
+# Assign the `Contributor` role to User1 for a specific resource group.
+
+User2 - Reader Role
+
+# Assign the `Reader` role to User2 for the entire subscription.
+
+User3 - Custom Role
+
+# Assign a custom role with specific permissions to User3 for a particular resource.
+
+User4 - User Access Administrator Role
+
+# Assign the `User Access Administrator` role to User4.

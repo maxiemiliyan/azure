@@ -1,0 +1,7 @@
+# Technologies Used
+
+- Microsoft Azure
+- Azure Active Directory
+- Role-Based Access Control (RBAC)
+- Conditional Access
+- Multi-Factor Authentication (MFA)

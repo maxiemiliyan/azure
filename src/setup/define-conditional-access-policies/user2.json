@@ -1,0 +1,13 @@
+{
+    "ConditionalAccessPolicy_User2": {
+      "conditions": {
+        "user": {
+          "include": ["0c9a00b6-38d0-4222-b6c7-903489564b19"]
+        }
+      },
+      "grant": {
+        "actions": ["read"],
+        "resources": ["/subscriptions/baff284b-b98d-4a50-ab18-1d1ae16022b9/resourceGroups/demo"]
+      }
+    }
+  }

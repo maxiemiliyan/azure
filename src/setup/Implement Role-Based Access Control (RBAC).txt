@@ -1,0 +1,21 @@
+# Setup Instructions - Implement Role-Based Access Control (RBAC)
+
+Used Azure Portal to assign roles.
+
+## User1 has the role of "Contributor"
+
+If a user has the "Contributor Role" in Azure RBAC, they have permissions to manage Azure resources within a resource group, but their access to applications and data is determined by Conditional Access policies, which are configured separately.
+
+Users with the Contributor Role can create, update, and delete Azure resources within the specified scope. This includes virtual machines, storage accounts, databases, etc. While Contributors have significant control over resources, they do not have permissions to manage access control (RBAC). This means they cannot assign roles to other users or modify access control settings for themselves or others.
+
+## User2 has the role of "Reader"
+
+Assign the Reader role to users who require read-only access to view resources and configurations within a specific resource group or scope. Readers can see the details of resources but cannot make changes or deploy new resources.
+
+## User3 has the role of "Custom Role"
+
+Use the Azure portal to define the custom role. Navigate to the Azure Portal, go to "Azure Active Directory," then "Roles and administrators." Click on "New custom role" and define the role with a name "LimitedVMAdmin."
+
+## User4 has the role of "User Access Administrator"
+
+The primary function of the "User Access Administrator" is to assign roles to other users, groups, or service principals. They can grant permissions such as Contributor, Reader, or custom roles to control access to specific resources. It provides significant access to control who has access to resources.
