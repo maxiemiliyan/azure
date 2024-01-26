@@ -16,6 +16,6 @@ The project structure is designed to provide clarity and organization for easy n
 
 - technologies-used.md: Lists the technologies used in the project.
 
-- license.md: Specifies the project's license information.
+- license.md: This library is licensed under the MIT-0 License. See the LICENSE file.
 
 
