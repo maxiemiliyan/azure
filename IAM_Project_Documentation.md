@@ -28,7 +28,7 @@ Follow the detailed [setup instructions](src/setup) to configure users, assign r
 
 4. Project Structure
 
-The project structure is organized for clarity and ease of navigation. For detailed information, refer to the [project structure documentation].
+The project structure is organized for clarity and ease of navigation. For detailed information, refer to the #project-structure.
 
 5. License
 This library is licensed under the MIT-0 License. See the LICENSE file.
