@@ -5,3 +5,4 @@
 - Role-Based Access Control (RBAC)
 - Conditional Access
 - Multi-Factor Authentication (MFA)
+- ARM Templates
